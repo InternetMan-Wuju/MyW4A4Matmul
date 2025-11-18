@@ -1,0 +1,308 @@
+
+### set_ffts_base_addr((uint64_t)281473018451616);
+
+[set_ffts_base_addr] unsupported
+[S] [RECV_INST] set_ffts_base_addr type 7
+[S] [EXECUTE] set_ffts_base_addr type 7
+
+### set_mask_norm();
+
+[set_mask_norm] unsupported
+[S] [RECV_INST] set_mask_norm type 7
+[S] [EXECUTE] set_mask_norm type 7
+
+### set_l1_3d_size((uint64_t)0);
+
+[set_l1_3d_size] unsupported
+[S] [RECV_INST] set_l1_3d_size type 7
+[S] [EXECUTE] set_l1_3d_size type 7
+
+### set_padding((uint64_t)0);
+
+[set_padding] unsupported
+[S] [RECV_INST] set_padding type 7
+[S] [EXECUTE] set_padding type 7
+
+### set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)0);
+
+[M] [RECV_INST] set_flag type 3
+[M] [EXECUTE] set_flag type 3
+[M] [send event] on set_flag 2 3 0
+[MTE1] [RECV_EVENT] SRC M DST MTE1 EVENT 0
+
+### set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)1);
+
+[M] [RECV_INST] set_flag type 3
+[M] [EXECUTE] set_flag type 3
+[M] [send event] on set_flag 2 3 1
+[MTE1] [RECV_EVENT] SRC M DST MTE1 EVENT 1
+
+### set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)2);
+
+[M] [RECV_INST] set_flag type 3
+[M] [EXECUTE] set_flag type 3
+[M] [send event] on set_flag 2 3 2
+[MTE1] [RECV_EVENT] SRC M DST MTE1 EVENT 2
+[ALL] [TBUF_EVENT] ABS_ADDR 0xffff82606010 0x30000 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xffff82585010 0x80000 B type L0A
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38c8af0 0x10000 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38d8b00 0x10000 B type L0B
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38e8b10 0x20000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae21a2730 0x400 B type L0C
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae37ca7e0 0x1c00 B type L0C
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] INIT 0xffff82606010 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x800, Rate: 0.78125%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869097488len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff82606810 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x1000, Rate: 1.5625%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869099536len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff82607010 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2000, Rate: 3.125%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869101584len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff82608010 0x20 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2020, Rate: 3.13721%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105680len: 32
+[ALL] [TBUF_EVENT] INIT 0xffff82608030 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2120, Rate: 3.23486%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105712len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff82608130 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2220, Rate: 3.33252%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105968len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff82608230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869106224len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff82609230 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x800, Rate: 0.78125%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869110320len: 2048
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff82609a30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x1000, Rate: 1.5625%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869112368len: 2048
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260a230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x2000, Rate: 3.125%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869114416len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260b230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3000, Rate: 4.6875%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869118512len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c230 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3400, Rate: 5.07812%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869122608len: 1024
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c630 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3500, Rate: 5.17578%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869123632len: 256
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c730 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3600, Rate: 5.27344%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869123888len: 256
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c830 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869124144len: 1024
+[ALL] [TBUF_EVENT] INIT 0xffff8260cc30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3a20, Rate: 5.67627%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869125168len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff8260d430 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x4220, Rate: 6.45752%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869127216len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff8260dc30 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5220, Rate: 8.02002%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869129264len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff8260ec30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5320, Rate: 8.11768%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133360len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff8260ed30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5420, Rate: 8.21533%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133616len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff8260ee30 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6420, Rate: 9.77783%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133872len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff8260fe30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869137968len: 2048
+[ALL] [TBUF_EVENT] PERSISTENT 0xaaaae38c8af0 0x10000 B type L0A
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+    L0A USED: 0x10000, Rate: 100%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 187650938800880len: 65536
+[ALL] [TBUF_EVENT] PERSISTENT 0xaaaae38d8b00 0x10000 B type L0B
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+    L0A USED: 0x10000, Rate: 100%
+    L0B USED: 0x10000, Rate: 100%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 187650938866432len: 65536
+
+### set_ctrl((uint64_t)2251799813685248);
+
+[set_ctrl] unsupported
+[S] [RECV_INST] set_ctrl type 7
+[S] [EXECUTE] set_ctrl type 7
+[ALL] [TBUF_EVENT] INIT 0xffff82585010 0x400 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+    L0A USED: 0x10000, Rate: 100%
+    L0B USED: 0x10000, Rate: 100%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+    L1 USED: 0x400, Rate: 0.0976562%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472868569104len: 1024
+[ALL] [TBUF_EVENT] INIT 0xffff82585410 0x400 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+    L0A USED: 0x10000, Rate: 100%
+    L0B USED: 0x10000, Rate: 100%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+    L1 USED: 0x800, Rate: 0.195312%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472868570128len: 1024
+[ALL] [TBUF_EVENT] PERSISTENT 0xaaaae38e8b10 0x1000 B type L0C
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+    L0A USED: 0x10000, Rate: 100%
+    L0B USED: 0x10000, Rate: 100%
+    L0C USED: 0x1000, Rate: 1.5625%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+    L1 USED: 0x800, Rate: 0.195312%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 187650938931984len: 4096

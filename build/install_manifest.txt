@@ -1,0 +1,2 @@
+/CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so
+/CYT_fileSys_2/Code1/W4A4GroupMatmul/out/bin/ascendc_kernels_bbit

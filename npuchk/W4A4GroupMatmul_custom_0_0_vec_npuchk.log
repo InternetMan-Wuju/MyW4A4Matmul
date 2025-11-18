@@ -1,0 +1,1550 @@
+
+### set_ffts_base_addr((uint64_t)281473018451616);
+
+[set_ffts_base_addr] unsupported
+[S] [RECV_INST] set_ffts_base_addr type 7
+[S] [EXECUTE] set_ffts_base_addr type 7
+
+### set_mask_norm();
+
+[set_mask_norm] unsupported
+[S] [RECV_INST] set_mask_norm type 7
+[S] [EXECUTE] set_mask_norm type 7
+
+### set_vector_mask((uint64_t)18446744073709551615, (uint64_t)18446744073709551615);
+
+[V] [RECV_INST] set_vector_mask type 6
+[V] [EXECUTE] set_vector_mask type 6
+[ALL] [TBUF_EVENT] ABS_ADDR 0xffff82606010 0x30000 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xffff82585010 0x80000 B type L0A
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38c8af0 0x10000 B type L1
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38d8b00 0x10000 B type L0B
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae38e8b10 0x20000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae21a2730 0x400 B type L0C
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] ABS_ADDR 0xaaaae37ca7e0 0x1c00 B type L0C
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[ALL] [TBUF_EVENT] INIT 0xffff82606010 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x800, Rate: 0.78125%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869097488len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff82606810 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x1000, Rate: 1.5625%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869099536len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff82607010 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2000, Rate: 3.125%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869101584len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff82608010 0x20 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2020, Rate: 3.13721%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105680len: 32
+[ALL] [TBUF_EVENT] INIT 0xffff82608030 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2120, Rate: 3.23486%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105712len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff82608130 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x2220, Rate: 3.33252%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869105968len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff82608230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869106224len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff82609230 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x800, Rate: 0.78125%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869110320len: 2048
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff82609a30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x1000, Rate: 1.5625%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869112368len: 2048
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260a230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x2000, Rate: 3.125%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869114416len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260b230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3000, Rate: 4.6875%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869118512len: 4096
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c230 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3400, Rate: 5.07812%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869122608len: 1024
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c630 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3500, Rate: 5.17578%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869123632len: 256
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c730 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3600, Rate: 5.27344%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869123888len: 256
+[ALL] [TBUF_EVENT] PERSISTENT 0xffff8260c830 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3220, Rate: 4.89502%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869124144len: 1024
+[ALL] [TBUF_EVENT] INIT 0xffff8260cc30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x3a20, Rate: 5.67627%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869125168len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff8260d430 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x4220, Rate: 6.45752%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869127216len: 2048
+[ALL] [TBUF_EVENT] INIT 0xffff8260dc30 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5220, Rate: 8.02002%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869129264len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff8260ec30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5320, Rate: 8.11768%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133360len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff8260ed30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x5420, Rate: 8.21533%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133616len: 256
+[ALL] [TBUF_EVENT] INIT 0xffff8260ee30 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6420, Rate: 9.77783%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869133872len: 4096
+[ALL] [TBUF_EVENT] INIT 0xffff8260fe30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x3a00, Rate: 5.66406%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][InitMemRecord]add addr: 281472869137968len: 2048
+
+### set_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[MTE3] [RECV_INST] set_flag type 3
+[MTE3] [EXECUTE] set_flag type 3
+[MTE3] [send event] on set_flag 5 0 0
+[S] [RECV_EVENT] SRC MTE3 DST S EVENT 0
+[ALL] [TBUF_EVENT] ALLOC 0xffff82606010 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x4200, Rate: 6.44531%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869097488len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff82606810 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x4a00, Rate: 7.22656%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869099536len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff82608030 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x4b00, Rate: 7.32422%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869105712len: 256
+[ALL] [TBUF_EVENT] ALLOC 0xffff82608130 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x4c00, Rate: 7.42188%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869105968len: 256
+[ALL] [TBUF_EVENT] ALLOC 0xffff82608010 0x20 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x4c20, Rate: 7.43408%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869105680len: 32
+
+### copy_gm_to_ubuf((__ubuf__ void*)0xffff82606010, (__gm__ void*)0xffff8c65a800, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[MTE2] [RECV_INST] copy_gm_to_ubuf type 0
+[MTE2] [EXECUTE] copy_gm_to_ubuf type 0
+[MTE2] read  data 0xffff8c65a800 0x800 B type GM
+[MTE2] [DATA_MARK] 0xffff8c65a800 0x800 B type GM mark read
+[MTE2] write data 0xffff82606010 0x800 B type UB
+[MTE2] checking pending queue
+[MTE2] [CHECK_DATA] 0xffff82606010 0x800 B type UB
+[MTE2] checking wrote queue
+[MTE2] [CHECK_DATA] 0xffff82606010 0x800 B type UB
+[MTE2] [CHECK_TBUF] 0xffff82606010 0x800 B type UB
+[MTE2] allocation buffer match result 0
+[MEMCHEK] Mem[281472869097488]checkNum is 0
+
+### copy_gm_to_ubuf((__ubuf__ void*)0xffff82606810, (__gm__ void*)0xffff8c308800, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[MTE2] [RECV_INST] copy_gm_to_ubuf type 0
+[MTE2] [EXECUTE] copy_gm_to_ubuf type 0
+[MTE2] read  data 0xffff8c308800 0x800 B type GM
+[MTE2] [DATA_MARK] 0xffff8c308800 0x800 B type GM mark read
+[MTE2] write data 0xffff82606810 0x800 B type UB
+[MTE2] checking pending queue
+[MTE2] [CHECK_DATA] 0xffff82606810 0x800 B type UB
+[MTE2] checking wrote queue
+[MTE2] [CHECK_DATA] 0xffff82606810 0x800 B type UB
+[MTE2] [CHECK_TBUF] 0xffff82606810 0x800 B type UB
+[MTE2] allocation buffer match result 0
+[MEMCHEK] Mem[281472869099536]checkNum is 0
+
+### copy_gm_to_ubuf((__ubuf__ void*)0xffff82608030, (__gm__ void*)0xffff8b5f9f00, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[MTE2] [RECV_INST] copy_gm_to_ubuf type 0
+[MTE2] [EXECUTE] copy_gm_to_ubuf type 0
+[MTE2] read  data 0xffff8b5f9f00 0x100 B type GM
+[MTE2] [DATA_MARK] 0xffff8b5f9f00 0x100 B type GM mark read
+[MTE2] write data 0xffff82608030 0x100 B type UB
+[MTE2] checking pending queue
+[MTE2] [CHECK_DATA] 0xffff82608030 0x100 B type UB
+[MTE2] checking wrote queue
+[MTE2] [CHECK_DATA] 0xffff82608030 0x100 B type UB
+[MTE2] [CHECK_TBUF] 0xffff82608030 0x100 B type UB
+[MTE2] allocation buffer match result 0
+[MEMCHEK] Mem[281472869105712]checkNum is 0
+
+### copy_gm_to_ubuf((__ubuf__ void*)0xffff82608130, (__gm__ void*)0xffff8b5f6f00, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[MTE2] [RECV_INST] copy_gm_to_ubuf type 0
+[MTE2] [EXECUTE] copy_gm_to_ubuf type 0
+[MTE2] read  data 0xffff8b5f6f00 0x100 B type GM
+[MTE2] [DATA_MARK] 0xffff8b5f6f00 0x100 B type GM mark read
+[MTE2] write data 0xffff82608130 0x100 B type UB
+[MTE2] checking pending queue
+[MTE2] [CHECK_DATA] 0xffff82608130 0x100 B type UB
+[MTE2] checking wrote queue
+[MTE2] [CHECK_DATA] 0xffff82608130 0x100 B type UB
+[MTE2] [CHECK_TBUF] 0xffff82608130 0x100 B type UB
+[MTE2] allocation buffer match result 0
+[MEMCHEK] Mem[281472869105968]checkNum is 0
+
+### copy_gm_to_ubuf((__ubuf__ void*)0xffff82608010, (__gm__ void*)0xffff8b5f3fe0, (uint8_t)0, (uint16_t)1, (uint16_t)1, (uint16_t)0, (uint16_t)0);
+
+[MTE2] [RECV_INST] copy_gm_to_ubuf type 0
+[MTE2] [EXECUTE] copy_gm_to_ubuf type 0
+[MTE2] read  data 0xffff8b5f3fe0 0x20 B type GM
+[MTE2] [DATA_MARK] 0xffff8b5f3fe0 0x20 B type GM mark read
+[MTE2] write data 0xffff82608010 0x20 B type UB
+[MTE2] checking pending queue
+[MTE2] [CHECK_DATA] 0xffff82608010 0x20 B type UB
+[MTE2] checking wrote queue
+[MTE2] [CHECK_DATA] 0xffff82608010 0x20 B type UB
+[MTE2] [CHECK_TBUF] 0xffff82608010 0x20 B type UB
+[MTE2] allocation buffer match result 0
+[MEMCHEK] Mem[281472869105680]checkNum is 0
+
+### set_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)0);
+
+[MTE2] [RECV_INST] set_flag type 3
+[MTE2] [EXECUTE] set_flag type 3
+[MTE2] [SYNC_DATA] 0xffff82606010 0x800 B type UB
+[MTE2] [SYNC_DATA] 0xffff82606810 0x800 B type UB
+[MTE2] [SYNC_DATA] 0xffff82608030 0x100 B type UB
+[MTE2] [SYNC_DATA] 0xffff82608130 0x100 B type UB
+[MTE2] [SYNC_DATA] 0xffff82608010 0x20 B type UB
+[MTE2] [send event] on set_flag 4 1 0
+[MTE2] -> [V] [GET_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[MTE2] -> [V] [GET_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[V] [RECV_EVENT] SRC MTE2 DST V EVENT 0
+[V] [RECV_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[V] [RECV_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[MEMCHEK] Mem[281472869097488]checkNum is 0
+
+### set_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)1);
+
+[MTE2] [RECV_INST] set_flag type 3
+[MTE2] [EXECUTE] set_flag type 3
+[MTE2] [send event] on set_flag 4 1 1
+[MTE2] -> [V] [GET_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[MTE2] -> [V] [GET_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[V] [RECV_EVENT] SRC MTE2 DST V EVENT 1
+[V] [RECV_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[V] [RECV_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[MEMCHEK] Mem[281472869099536]checkNum is 0
+
+### set_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)2);
+
+[MTE2] [RECV_INST] set_flag type 3
+[MTE2] [EXECUTE] set_flag type 3
+[MTE2] [send event] on set_flag 4 1 2
+[MTE2] -> [V] [GET_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[MTE2] -> [V] [GET_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[V] [RECV_EVENT] SRC MTE2 DST V EVENT 2
+[V] [RECV_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[V] [RECV_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[MEMCHEK] Mem[281472869105712]checkNum is 0
+
+### set_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)3);
+
+[MTE2] [RECV_INST] set_flag type 3
+[MTE2] [EXECUTE] set_flag type 3
+[MTE2] [send event] on set_flag 4 1 3
+[MTE2] -> [V] [GET_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[MTE2] -> [V] [GET_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[V] [RECV_EVENT] SRC MTE2 DST V EVENT 3
+[V] [RECV_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[V] [RECV_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[MEMCHEK] Mem[281472869105968]checkNum is 0
+
+### set_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)4);
+
+[MTE2] [RECV_INST] set_flag type 3
+[MTE2] [EXECUTE] set_flag type 3
+[MTE2] [send event] on set_flag 4 1 4
+[MTE2] -> [V] [GET_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[MTE2] -> [V] [GET_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[V] [RECV_EVENT] SRC MTE2 DST V EVENT 4
+[V] [RECV_DATA] 0xffff82606010 0x1000 B stat 1 type UB
+[V] [RECV_DATA] 0xffff82608010 0x220 B stat 1 type UB
+[MEMCHEK] Mem[281472869105680]checkNum is 0
+
+### wait_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)0);
+
+[V] [RECV_INST] wait_flag type 4
+[V] [EXECUTE] wait_flag type 4
+[V] [no wait] on wait_flag 4 1 0
+[MTE2] [EVENT_CLEAR] send 4 1 0 has been waited
+[MEMCHEK] Mem[281472869097488]checkNum is 0
+
+### wait_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)1);
+
+[V] [RECV_INST] wait_flag type 4
+[V] [EXECUTE] wait_flag type 4
+[V] [no wait] on wait_flag 4 1 1
+[MTE2] [EVENT_CLEAR] send 4 1 1 has been waited
+[MEMCHEK] Mem[281472869099536]checkNum is 0
+
+### wait_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)2);
+
+[V] [RECV_INST] wait_flag type 4
+[V] [EXECUTE] wait_flag type 4
+[V] [no wait] on wait_flag 4 1 2
+[MTE2] [EVENT_CLEAR] send 4 1 2 has been waited
+[MEMCHEK] Mem[281472869105712]checkNum is 0
+
+### wait_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)3);
+
+[V] [RECV_INST] wait_flag type 4
+[V] [EXECUTE] wait_flag type 4
+[V] [no wait] on wait_flag 4 1 3
+[MTE2] [EVENT_CLEAR] send 4 1 3 has been waited
+[MEMCHEK] Mem[281472869105968]checkNum is 0
+
+### wait_flag((pipe_t)PIPE_MTE2, (pipe_t)PIPE_V, (event_t)4);
+
+[V] [RECV_INST] wait_flag type 4
+[V] [EXECUTE] wait_flag type 4
+[V] [no wait] on wait_flag 4 1 4
+[MTE2] [EVENT_CLEAR] send 4 1 4 has been waited
+[MEMCHEK] Mem[281472869105680]checkNum is 0
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260fe30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x5420, Rate: 8.21533%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869137968len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff82607010 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x6420, Rate: 9.77783%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869101584len: 4096
+[ALL] [TBUF_EVENT] ALLOC 0xffff82608230 0x1000 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x7420, Rate: 11.3403%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869106224len: 4096
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260a230 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x7820, Rate: 11.731%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869114416len: 1024
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260c830 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x7920, Rate: 11.8286%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869124144len: 256
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260b230 0x400 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x7d20, Rate: 12.2192%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869118512len: 1024
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260c230 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x7e20, Rate: 12.3169%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869122608len: 256
+[ALL] [TBUF_EVENT] ALLOC 0xffff82609230 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x8620, Rate: 13.0981%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869110320len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff82609a30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x8e20, Rate: 13.8794%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869112368len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260c630 0x40 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x8e60, Rate: 13.9038%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869123632len: 64
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260c730 0x40 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x8ea0, Rate: 13.9282%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869123888len: 64
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff82609230, (__ubuf__ void*)0xffff82606010, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82606010 0x800 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82606010 0x800 B type UB
+[V] data matched whole 0xffff82606010 0x1000 stat 1
+[V] [DATA_MARK] 0xffff82606010 0x800 B type UB mark read
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82606010 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff82606010 0x800 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff82609230 0x800 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82609230 0x800 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff82609230 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff82609230 0x800 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869097488]checkNum is 0
+[MEMCHEK] Mem[281472869110320]checkNum is 0
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff82609a30, (__ubuf__ void*)0xffff82606810, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82606810 0x800 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82606810 0x800 B type UB
+[V] data matched whole 0xffff82606010 0x1000 stat 1
+[V] [DATA_MARK] 0xffff82606810 0x800 B type UB mark read
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82606810 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff82606810 0x800 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff82609a30 0x800 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82609a30 0x800 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff82609a30 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff82609a30 0x800 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869099536]checkNum is 0
+[MEMCHEK] Mem[281472869112368]checkNum is 0
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260c630, (__ubuf__ void*)0xffff82608030, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82608030 0x100 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82608030 0x100 B type UB
+[V] data matched whole 0xffff82608010 0x220 stat 1
+[V] [DATA_MARK] 0xffff82608030 0x100 B type UB mark read
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82608030 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff82608030 0x100 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff8260c630 0x100 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260c630 0x100 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260c630 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff8260c630 0x100 B type UB
+[V] allocation buffer match result 1
+[V] [ErrorWrite2] on write 0xffff8260c630 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine14DataWriteCheckERSt6vectorINS_5DataTESaIS2_EEb+0x92c) [0xffff8af4b8b8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine9DataWriteERSt6vectorINS_5DataTESaIS2_EEb+0xbc) [0xffff8af4bbec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x2a4) [0xffff8af4d228]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x214) [0xffff8c38ecf0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] [TBUF_INFO] match tbuf 0xffff8260c630 0x100 B
+[MEMCHEK] Mem[281472869105712]checkNum is 0
+[MEMCHEK] Mem[281472869123632]checkNum is 0
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260c730, (__ubuf__ void*)0xffff82608130, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82608130 0x100 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82608130 0x100 B type UB
+[V] data matched whole 0xffff82608010 0x220 stat 1
+[V] [DATA_MARK] 0xffff82608130 0x100 B type UB mark read
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82608130 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff82608130 0x100 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff8260c730 0x100 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260c730 0x100 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260c730 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff8260c730 0x100 B type UB
+[V] allocation buffer match result 1
+[V] [ErrorWrite2] on write 0xffff8260c730 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine14DataWriteCheckERSt6vectorINS_5DataTESaIS2_EEb+0x92c) [0xffff8af4b8b8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine9DataWriteERSt6vectorINS_5DataTESaIS2_EEb+0xbc) [0xffff8af4bbec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x2a4) [0xffff8af4d228]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x228) [0xffff8c38ed04]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] [TBUF_INFO] match tbuf 0xffff8260c730 0x100 B
+[MEMCHEK] Mem[281472869105968]checkNum is 0
+[MEMCHEK] Mem[281472869123888]checkNum is 0
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260cc30 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x96a0, Rate: 14.7095%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869125168len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260d430 0x800 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x9ea0, Rate: 15.4907%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869127216len: 2048
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260ec30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0x9fa0, Rate: 15.5884%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869133360len: 256
+[ALL] [TBUF_EVENT] ALLOC 0xffff8260ed30 0x100 B type UB
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+    UB USED: 0xa0a0, Rate: 15.686%
+[ALL] [TBUF_STAT] ---------- tbuf used stat ----------
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+    UB USED: 0x6c20, Rate: 10.5591%
+[ALL] [TBUF_STAT] ---------- tbuf init stat ----------
+[MEMCHEK][CreateMemRecord] addr: 281472869133616len: 256
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260cc30, (__ubuf__ void*)0xffff82609230, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82609230 0x800 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82609230 0x800 B type UB
+[V] [ErrorRead2] on read 0xffff82609230 0x800 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3b2150]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c3a9614]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c39f930]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c395ea0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2b0) [0xffff8c38ed8c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82609230 0x800 B type UB
+[V] data matched whole 0xffff82609230 0x800 stat 2
+[V] [ErrorSync2] on read 0xffff82609230 0x800 B
+[V] [CHECK_TBUF] 0xffff82609230 0x800 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff8260cc30 0x800 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260cc30 0x800 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260cc30 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff8260cc30 0x800 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869110320]checkNum is 0
+[MEMCHEK] Mem[281472869125168]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x424) [0xffff8af4d3a8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3b2150]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c3a9614]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c39f930]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c395ea0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2b0) [0xffff8c38ed8c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260d430, (__ubuf__ void*)0xffff82609a30, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff82609a30 0x800 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff82609a30 0x800 B type UB
+[V] [ErrorRead2] on read 0xffff82609a30 0x800 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3b2150]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c3a9614]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c39f930]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c395ea0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2c8) [0xffff8c38eda4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff82609a30 0x800 B type UB
+[V] data matched whole 0xffff82609a30 0x800 stat 2
+[V] [ErrorSync2] on read 0xffff82609a30 0x800 B
+[V] [CHECK_TBUF] 0xffff82609a30 0x800 B type UB
+[V] allocation buffer match result 0
+[V] write data 0xffff8260d430 0x800 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260d430 0x800 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260d430 0x800 B type UB
+[V] [CHECK_TBUF] 0xffff8260d430 0x800 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869112368]checkNum is 0
+[MEMCHEK] Mem[281472869127216]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x424) [0xffff8af4d3a8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3b2150]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c3a9614]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c39f930]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c395ea0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2c8) [0xffff8c38eda4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260ec30, (__ubuf__ void*)0xffff8260c630, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff8260c630 0x100 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff8260c630 0x100 B type UB
+[V] [ErrorRead2] on read 0xffff8260c630 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2e0) [0xffff8c38edbc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260c630 0x100 B type UB
+[V] data matched whole 0xffff8260c630 0x100 stat 2
+[V] [ErrorSync2] on read 0xffff8260c630 0x100 B
+[V] [CHECK_TBUF] 0xffff8260c630 0x100 B type UB
+[V] allocation buffer match result 1
+[V] [ErrorRead3] on read 0xffff8260c630 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x970) [0xffff8af4c5d4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2e0) [0xffff8c38edbc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] [TBUF_INFO] match tbuf 0xffff8260c630 0x100 B
+[V] write data 0xffff8260ec30 0x100 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260ec30 0x100 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260ec30 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff8260ec30 0x100 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869123632]checkNum is 0
+[MEMCHEK] Mem[281472869133360]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x424) [0xffff8af4d3a8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2e0) [0xffff8c38edbc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### copy_ubuf_to_ubuf((__ubuf__ void*)0xffff8260ed30, (__ubuf__ void*)0xffff8260c730, (uint8_t)0, (uint16_t)1, (uint16_t)8, (uint16_t)0, (uint16_t)0);
+
+[V] [RECV_INST] copy_ubuf_to_ubuf type 0
+[V] [EXECUTE] copy_ubuf_to_ubuf type 0
+[V] read  data 0xffff8260c730 0x100 B type UB
+[V] checking synced queue
+[V] [CHECK_DATA] 0xffff8260c730 0x100 B type UB
+[V] [ErrorRead2] on read 0xffff8260c730 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2f8) [0xffff8c38edd4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260c730 0x100 B type UB
+[V] data matched whole 0xffff8260c730 0x100 stat 2
+[V] [ErrorSync2] on read 0xffff8260c730 0x100 B
+[V] [CHECK_TBUF] 0xffff8260c730 0x100 B type UB
+[V] allocation buffer match result 1
+[V] [ErrorRead3] on read 0xffff8260c730 0x100 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x970) [0xffff8af4c5d4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2f8) [0xffff8c38edd4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[V] [TBUF_INFO] match tbuf 0xffff8260c730 0x100 B
+[V] write data 0xffff8260ed30 0x100 B type UB
+[V] checking pending queue
+[V] [CHECK_DATA] 0xffff8260ed30 0x100 B type UB
+[V] checking wrote queue
+[V] [CHECK_DATA] 0xffff8260ed30 0x100 B type UB
+[V] [CHECK_TBUF] 0xffff8260ed30 0x100 B type UB
+[V] allocation buffer match result 0
+[MEMCHEK] Mem[281472869123888]checkNum is 0
+[MEMCHEK] Mem[281472869133616]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x424) [0xffff8af4d3a8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk17copy_ubuf_to_ubufEPvS0_htttt+0x364) [0xffff8afd78c8]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z17copy_ubuf_to_ubufPvS_htttt+0x80) [0xffff8ad51ea8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBImplIfEEvPT_S2_RKNS_14DataCopyParamsE+0x12c) [0xffff8c3a5f34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2UBIntfIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x3c) [0xffff8c39b8d4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_RKNS_14DataCopyParamsE+0x160) [0xffff8c392558]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIfEEvRKNS_11LocalTensorIT_EES5_j+0x1e0) [0xffff8c392bac]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x2f8) [0xffff8c38edd4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### dcci((__gm__ void*)0xffff82739000, (uint64_t)0, (uint64_t)2);
+
+[dcci] unsupported
+[S] [RECV_INST] dcci type 7
+[S] [EXECUTE] dcci type 7
+
+### wait_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[S] [RECV_INST] wait_flag type 4
+[S] [EXECUTE] wait_flag type 4
+[S] [no wait] on wait_flag 5 0 0
+[MTE3] [EVENT_CLEAR] send 5 0 0 has been waited
+
+### set_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[S] [RECV_INST] set_flag type 3
+[S] [EXECUTE] set_flag type 3
+[S] [send event] on set_flag 0 5 0
+[MTE3] [RECV_EVENT] SRC S DST MTE3 EVENT 0
+
+### wait_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[MTE3] [RECV_INST] wait_flag type 4
+[MTE3] [EXECUTE] wait_flag type 4
+[MTE3] [no wait] on wait_flag 0 5 0
+[S] [EVENT_CLEAR] send 0 5 0 has been waited
+
+### pipe_barrier((pipe_t)PIPE_MTE3);
+
+[MTE3] [RECV_INST] pipe_barrier type 5
+[MTE3] [EXECUTE] pipe_barrier type 5
+
+### copy_ubuf_to_gm((__gm__ void*)0xffff82739000, (__ubuf__ void*)0xffff82635f90, (uint8_t)0, (uint16_t)1, (uint16_t)4, (uint16_t)0, (uint16_t)0);
+
+[MTE3] [RECV_INST] copy_ubuf_to_gm type 0
+[MTE3] [EXECUTE] copy_ubuf_to_gm type 0
+[MTE3] read  data 0xffff82635f90 0x80 B type UB
+[MTE3] checking synced queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [ErrorRead2] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x9a09c) [0xffff8c3aa09c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8ff38) [0xffff8c39ff38]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8616c) [0xffff8c39616c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x354) [0xffff8c38ee30]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [CHECK_TBUF] 0xffff82635f90 0x80 B type UB
+[MTE3] allocation buffer match result 2
+[MTE3] persistent buffer match result 2
+[MTE3] [ErrorRead1] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x82c) [0xffff8af4c490]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x9a09c) [0xffff8c3aa09c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8ff38) [0xffff8c39ff38]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8616c) [0xffff8c39616c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x354) [0xffff8c38ee30]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] write data 0xffff82739000 0x80 B type GM
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82739000 0x80 B type GM
+[MTE3] checking wrote queue
+[MTE3] [CHECK_DATA] 0xffff82739000 0x80 B type GM
+[MTE3] [CHECK_TBUF] 0xffff82739000 0x80 B type GM
+[MEMCHEK][ErrorBuffer3] Mem[281472869293968]checkNum is 1quePos: 11
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x318) [0xffff8af61d10]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x35c) [0xffff8af4d2e0]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x9a09c) [0xffff8c3aa09c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8ff38) [0xffff8c39ff38]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8616c) [0xffff8c39616c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x354) [0xffff8c38ee30]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### set_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[MTE3] [RECV_INST] set_flag type 3
+[MTE3] [EXECUTE] set_flag type 3
+[MTE3] [SYNC_DATA] 0xffff82739000 0x80 B type GM
+[MTE3] [send event] on set_flag 5 0 0
+[MTE3] -> [S] [GET_DATA] 0xffff82739000 0x80 B stat 1 type GM
+[S] [RECV_EVENT] SRC MTE3 DST S EVENT 0
+[S] [RECV_DATA] 0xffff82739000 0x80 B stat 1 type GM
+
+### set_flag((pipe_t)PIPE_V, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[V] [RECV_INST] set_flag type 3
+[V] [EXECUTE] set_flag type 3
+[V] [SYNC_DATA] 0xffff82609230 0x800 B type UB
+[V] [SYNC_DATA] 0xffff82609a30 0x800 B type UB
+[V] [SYNC_DATA] 0xffff8260c630 0x100 B type UB
+[V] [SYNC_DATA] 0xffff8260c730 0x100 B type UB
+[V] [SYNC_DATA] 0xffff8260cc30 0x800 B type UB
+[V] [SYNC_DATA] 0xffff8260d430 0x800 B type UB
+[V] [SYNC_DATA] 0xffff8260ec30 0x100 B type UB
+[V] [SYNC_DATA] 0xffff8260ed30 0x100 B type UB
+[V] [send event] on set_flag 1 5 0
+[V] -> [MTE3] [GET_DATA] 0xffff82609230 0x1000 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260c630 0x200 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260cc30 0x1000 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260ec30 0x200 B stat 1 type UB
+[MTE3] [RECV_EVENT] SRC V DST MTE3 EVENT 0
+[MTE3] [RECV_DATA] 0xffff82609230 0x1000 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260c630 0x200 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260cc30 0x1000 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260ec30 0x200 B stat 1 type UB
+
+### wait_flag((pipe_t)PIPE_V, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[MTE3] [RECV_INST] wait_flag type 4
+[MTE3] [EXECUTE] wait_flag type 4
+[MTE3] [no wait] on wait_flag 1 5 0
+[V] [EVENT_CLEAR] send 1 5 0 has been waited
+
+### copy_ubuf_to_gm((__gm__ void*)0xffff82808080, (__ubuf__ void*)0xffff8260cc30, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[MTE3] [RECV_INST] copy_ubuf_to_gm type 0
+[MTE3] [EXECUTE] copy_ubuf_to_gm type 0
+[MTE3] read  data 0xffff8260cc30 0x800 B type UB
+[MTE3] checking synced queue
+[MTE3] [CHECK_DATA] 0xffff8260cc30 0x800 B type UB
+[MTE3] data matched whole 0xffff8260cc30 0x1000 stat 1
+[MTE3] [DATA_MARK] 0xffff8260cc30 0x800 B type UB mark read
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff8260cc30 0x800 B type UB
+[MTE3] [CHECK_TBUF] 0xffff8260cc30 0x800 B type UB
+[MTE3] allocation buffer match result 0
+[MTE3] write data 0xffff82808080 0x800 B type GM
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82808080 0x800 B type GM
+[MTE3] checking wrote queue
+[MTE3] [CHECK_DATA] 0xffff82808080 0x800 B type GM
+[MTE3] [CHECK_TBUF] 0xffff82808080 0x800 B type GM
+[MEMCHEK] Mem[281472869125168]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x35c) [0xffff8af4d2e0]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2GMImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x1fc) [0xffff8c3b70c8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_12GlobalTensorIT_EERKNS_11LocalTensorIS2_EERKNS_14DataCopyParamsE+0x17c) [0xffff8c3b2458]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x9a16c) [0xffff8c3aa16c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8ffcc) [0xffff8c39ffcc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x863f4) [0xffff8c3963f4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x398) [0xffff8c38ee74]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### set_flag((pipe_t)PIPE_V, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[V] [RECV_INST] set_flag type 3
+[V] [EXECUTE] set_flag type 3
+[V] [send event] on set_flag 1 5 0
+[V] -> [MTE3] [GET_DATA] 0xffff82609230 0x1000 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260c630 0x200 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260cc30 0x1000 B stat 1 type UB
+[V] -> [MTE3] [GET_DATA] 0xffff8260ec30 0x200 B stat 1 type UB
+[MTE3] [RECV_EVENT] SRC V DST MTE3 EVENT 0
+[MTE3] [RECV_DATA] 0xffff82609230 0x1000 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260c630 0x200 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260cc30 0x1000 B stat 1 type UB
+[MTE3] [RECV_DATA] 0xffff8260ec30 0x200 B stat 1 type UB
+
+### wait_flag((pipe_t)PIPE_V, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[MTE3] [RECV_INST] wait_flag type 4
+[MTE3] [EXECUTE] wait_flag type 4
+[MTE3] [no wait] on wait_flag 1 5 0
+[V] [EVENT_CLEAR] send 1 5 0 has been waited
+
+### copy_ubuf_to_gm((__gm__ void*)0xffff82808880, (__ubuf__ void*)0xffff8260d430, (uint8_t)0, (uint16_t)1, (uint16_t)64, (uint16_t)0, (uint16_t)0);
+
+[MTE3] [RECV_INST] copy_ubuf_to_gm type 0
+[MTE3] [EXECUTE] copy_ubuf_to_gm type 0
+[MTE3] read  data 0xffff8260d430 0x800 B type UB
+[MTE3] checking synced queue
+[MTE3] [CHECK_DATA] 0xffff8260d430 0x800 B type UB
+[MTE3] data matched whole 0xffff8260cc30 0x1000 stat 1
+[MTE3] [DATA_MARK] 0xffff8260d430 0x800 B type UB mark read
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff8260d430 0x800 B type UB
+[MTE3] [CHECK_TBUF] 0xffff8260d430 0x800 B type UB
+[MTE3] allocation buffer match result 0
+[MTE3] write data 0xffff82808880 0x800 B type GM
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82808880 0x800 B type GM
+[MTE3] checking wrote queue
+[MTE3] [CHECK_DATA] 0xffff82808880 0x800 B type GM
+[MTE3] [CHECK_TBUF] 0xffff82808880 0x800 B type GM
+[MEMCHEK] Mem[281472869127216]checkNum is 0
+[Buffer Check] [ErrorBuffer2] VecOut Operation inconsistent with the paradigm:ALLOC--DATACOPY-- ALLOC--OPVEC--ENQUE--DEQUE--DATACOPY--FREE--
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck11CheckVecOutERKSt6vectorINS_11QueOperatorESaIS2_EE+0x1d4) [0xffff8af70bec]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNSt17_Function_handlerIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEPS7_E9_M_invokeERKSt9_Any_dataS6_+0x2c) [0xffff8af71eb4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZNKSt8functionIFbRKSt6vectorIN6npuchk11QueOperatorESaIS2_EEEEclES6_+0x4c) [0xffff8af719ac]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk13BlockMemCheck15BlockMemOpCheckENS_11QueOperatorE+0x1d8) [0xffff8af70518]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x3e4) [0xffff8af61ddc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x35c) [0xffff8af4d2e0]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC17DataCopyUB2GMImplIaEEvPT_S2_RKNS_14DataCopyParamsE+0x1fc) [0xffff8c3b70c8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC8DataCopyIaEEvRKNS_12GlobalTensorIT_EERKNS_11LocalTensorIS2_EERKNS_14DataCopyParamsE+0x17c) [0xffff8c3b2458]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x9a16c) [0xffff8c3aa16c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x8ffcc) [0xffff8c39ffcc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x864b4) [0xffff8c3964b4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x3e8) [0xffff8c38eec4]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### dcci((__gm__ void*)0xffff82739080, (uint64_t)0, (uint64_t)2);
+
+[dcci] unsupported
+[S] [RECV_INST] dcci type 7
+[S] [EXECUTE] dcci type 7
+
+### wait_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[S] [RECV_INST] wait_flag type 4
+[S] [EXECUTE] wait_flag type 4
+[S] [no wait] on wait_flag 5 0 0
+[MTE3] [EVENT_CLEAR] send 5 0 0 has been waited
+
+### set_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[S] [RECV_INST] set_flag type 3
+[S] [EXECUTE] set_flag type 3
+[S] [send event] on set_flag 0 5 0
+[MTE3] [RECV_EVENT] SRC S DST MTE3 EVENT 0
+
+### wait_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[MTE3] [RECV_INST] wait_flag type 4
+[MTE3] [EXECUTE] wait_flag type 4
+[MTE3] [no wait] on wait_flag 0 5 0
+[S] [EVENT_CLEAR] send 0 5 0 has been waited
+
+### pipe_barrier((pipe_t)PIPE_MTE3);
+
+[MTE3] [RECV_INST] pipe_barrier type 5
+[MTE3] [EXECUTE] pipe_barrier type 5
+[MTE3] [SYNC_DATA] 0xffff82808080 0x800 B type GM
+[MTE3] [SYNC_DATA] 0xffff82808880 0x800 B type GM
+
+### copy_ubuf_to_gm((__gm__ void*)0xffff82739080, (__ubuf__ void*)0xffff82635f90, (uint8_t)0, (uint16_t)1, (uint16_t)4, (uint16_t)0, (uint16_t)0);
+
+[MTE3] [RECV_INST] copy_ubuf_to_gm type 0
+[MTE3] [EXECUTE] copy_ubuf_to_gm type 0
+[MTE3] read  data 0xffff82635f90 0x80 B type UB
+[MTE3] checking synced queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [ErrorRead2] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90110) [0xffff8c3a0110]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x865c0) [0xffff8c3965c0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x470) [0xffff8c38ef4c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [CHECK_TBUF] 0xffff82635f90 0x80 B type UB
+[MTE3] allocation buffer match result 2
+[MTE3] persistent buffer match result 2
+[MTE3] [ErrorRead1] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x82c) [0xffff8af4c490]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90110) [0xffff8c3a0110]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x865c0) [0xffff8c3965c0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x470) [0xffff8c38ef4c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] write data 0xffff82739080 0x80 B type GM
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82739080 0x80 B type GM
+[MTE3] checking wrote queue
+[MTE3] [CHECK_DATA] 0xffff82739080 0x80 B type GM
+[MTE3] [CHECK_TBUF] 0xffff82739080 0x80 B type GM
+[MEMCHEK][ErrorBuffer3] Mem[281472869293968]checkNum is 1quePos: 11
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x318) [0xffff8af61d10]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x35c) [0xffff8af4d2e0]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb0EEEvPNS_6KfcMsgE+0x60) [0xffff8c391924]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90110) [0xffff8c3a0110]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x865c0) [0xffff8c3965c0]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x470) [0xffff8c38ef4c]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### set_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[MTE3] [RECV_INST] set_flag type 3
+[MTE3] [EXECUTE] set_flag type 3
+[MTE3] [SYNC_DATA] 0xffff82739080 0x80 B type GM
+[MTE3] [send event] on set_flag 5 0 0
+[MTE3] -> [S] [GET_DATA] 0xffff82739000 0x100 B stat 1 type GM
+[MTE3] -> [S] [GET_DATA] 0xffff82808080 0x1000 B stat 1 type GM
+[S] [RECV_EVENT] SRC MTE3 DST S EVENT 0
+[S] [RECV_DATA] 0xffff82739000 0x100 B stat 1 type GM
+[S] [RECV_DATA] 0xffff82808080 0x1000 B stat 1 type GM
+
+### dcci((__gm__ void*)0xffff82739100, (uint64_t)0, (uint64_t)2);
+
+[dcci] unsupported
+[S] [RECV_INST] dcci type 7
+[S] [EXECUTE] dcci type 7
+
+### wait_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[S] [RECV_INST] wait_flag type 4
+[S] [EXECUTE] wait_flag type 4
+[S] [no wait] on wait_flag 5 0 0
+[MTE3] [EVENT_CLEAR] send 5 0 0 has been waited
+
+### set_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[S] [RECV_INST] set_flag type 3
+[S] [EXECUTE] set_flag type 3
+[S] [send event] on set_flag 0 5 0
+[MTE3] [RECV_EVENT] SRC S DST MTE3 EVENT 0
+
+### wait_flag((pipe_t)PIPE_S, (pipe_t)PIPE_MTE3, (event_t)0);
+
+[MTE3] [RECV_INST] wait_flag type 4
+[MTE3] [EXECUTE] wait_flag type 4
+[MTE3] [no wait] on wait_flag 0 5 0
+[S] [EVENT_CLEAR] send 0 5 0 has been waited
+
+### pipe_barrier((pipe_t)PIPE_MTE3);
+
+[MTE3] [RECV_INST] pipe_barrier type 5
+[MTE3] [EXECUTE] pipe_barrier type 5
+
+### copy_ubuf_to_gm((__gm__ void*)0xffff82739100, (__ubuf__ void*)0xffff82635f90, (uint8_t)0, (uint16_t)1, (uint16_t)4, (uint16_t)0, (uint16_t)0);
+
+[MTE3] [RECV_INST] copy_ubuf_to_gm type 0
+[MTE3] [EXECUTE] copy_ubuf_to_gm type 0
+[MTE3] read  data 0xffff82635f90 0x80 B type UB
+[MTE3] checking synced queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [ErrorRead2] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x4e0) [0xffff8af4c144]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb1EEEvPNS_6KfcMsgE+0x60) [0xffff8c3aa2cc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90398) [0xffff8c3a0398]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x868b8) [0xffff8c3968b8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x458) [0xffff8c38ef34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82635f90 0x80 B type UB
+[MTE3] [CHECK_TBUF] 0xffff82635f90 0x80 B type UB
+[MTE3] allocation buffer match result 2
+[MTE3] persistent buffer match result 2
+[MTE3] [ErrorRead1] on read 0xffff82635f90 0x80 B
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine8DataReadERSt6vectorINS_5DataTESaIS2_EEb+0x82c) [0xffff8af4c490]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x290) [0xffff8af4d214]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb1EEEvPNS_6KfcMsgE+0x60) [0xffff8c3aa2cc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90398) [0xffff8c3a0398]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x868b8) [0xffff8c3968b8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x458) [0xffff8c38ef34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+[MTE3] write data 0xffff82739100 0x80 B type GM
+[MTE3] checking pending queue
+[MTE3] [CHECK_DATA] 0xffff82739100 0x80 B type GM
+[MTE3] checking wrote queue
+[MTE3] [CHECK_DATA] 0xffff82739100 0x80 B type GM
+[MTE3] [CHECK_TBUF] 0xffff82739100 0x80 B type GM
+[MEMCHEK][ErrorBuffer3] Mem[281472869293968]checkNum is 1quePos: 11
+##### BackTrace #####
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk12GetBackTraceERSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE+0xa4) [0xffff8af73a28]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk23NpuCheckErrorMsgProcessESsRSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEbb+0x80) [0xffff8af73ff4]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15MemCheckManager12AddMemRecordEmhhjNS_11QueOperatorE+0x318) [0xffff8af61d10]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine10ProcessDmaERNS_7OpInstTE+0x35c) [0xffff8af4d2e0]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk6Engine7ExecuteEv+0x1a0) [0xffff8af48d98]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk8Executor11ExecuteCodeERNS_7OpInstTE+0x15c) [0xffff8af5a07c]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_npuchk.so(_ZN6npuchk15copy_ubuf_to_gmEPvS0_htttt+0x364) [0xffff8afd5cbc]
+  /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/libtikicpulib_stubreg.so(_Z15copy_ubuf_to_gmPvS_htttt+0x80) [0xffff8ad51160]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN7AscendC13KfcCommClient11PostMessageILb1EEEvPNS_6KfcMsgE+0x60) [0xffff8c3aa2cc]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x90398) [0xffff8c3a0398]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(+0x868b8) [0xffff8c3968b8]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(_ZN15W4A4GroupMatmul7ProcessEPh+0x458) [0xffff8c38ef34]
+  /CYT_fileSys_2/Code1/W4A4GroupMatmul/out/lib/libascendc_kernels_cpu.so(W4A4GroupMatmul_custom+0x2a4) [0xffff8c365180]
+  ./ascendc_kernels_bbit(+0x783c) [0xaaaab386783c]
+  /lib/aarch64-linux-gnu/libc.so.6(+0x27400) [0xffff89da7400]
+  /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xffff89da74d8]
+  ./ascendc_kernels_bbit(+0xa7b0) [0xaaaab386a7b0]
+
+
+### set_flag((pipe_t)PIPE_MTE3, (pipe_t)PIPE_S, (event_t)0);
+
+[MTE3] [RECV_INST] set_flag type 3
+[MTE3] [EXECUTE] set_flag type 3
+[MTE3] [SYNC_DATA] 0xffff82739100 0x80 B type GM
+[MTE3] [send event] on set_flag 5 0 0
+[MTE3] -> [S] [GET_DATA] 0xffff82739000 0x180 B stat 1 type GM
+[MTE3] -> [S] [GET_DATA] 0xffff82808080 0x1000 B stat 1 type GM
+[S] [RECV_EVENT] SRC MTE3 DST S EVENT 0
+[S] [RECV_DATA] 0xffff82739000 0x180 B stat 1 type GM
+[S] [RECV_DATA] 0xffff82808080 0x1000 B stat 1 type GM
+
+### wait_flag_dev((int64_t)0);
+
+[wait_flag_dev] unsupported
+[S] [RECV_INST] wait_flag_dev type 7
+[S] [EXECUTE] wait_flag_dev type 7

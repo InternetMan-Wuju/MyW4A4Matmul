@@ -1,0 +1,18 @@
+extern "C" __global__ [aicore] void W4A4GroupMatmul_custom(__gm__ uint8_t* __restrict__ arg0, __gm__ uint8_t* __restrict__ arg1, __gm__ uint8_t* __restrict__ arg2, __gm__ uint8_t* __restrict__ arg3, __gm__ uint8_t* __restrict__ arg4, __gm__ uint8_t* __restrict__ arg5, __gm__ uint8_t* __restrict__ arg6, __gm__ uint8_t* __restrict__ arg7, __gm__ uint8_t* __restrict__ arg8) {
+set_ffts_base_addr((uint64_t)0xffff8b4756a0);
+set_atomic_none();
+set_mask_norm();
+set_l1_3d_size((uint64_t)0);
+set_padding((uint64_t)0);
+#error "sff0 NO PROCESS RETURN VALUE"
+#error "sbitset1 NO PROCESS RETURN VALUE"
+set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)0);
+#error "sff0 NO PROCESS RETURN VALUE"
+#error "sbitset1 NO PROCESS RETURN VALUE"
+set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)1);
+#error "sff0 NO PROCESS RETURN VALUE"
+#error "sbitset1 NO PROCESS RETURN VALUE"
+set_flag((pipe_t)PIPE_M, (pipe_t)PIPE_MTE1, (event_t)2);
+#error "get_ctrl NO PROCESS RETURN VALUE"
+#error "sbitset1 NO PROCESS RETURN VALUE"
+set_ctrl((uint64_t)0x8000000000000);
