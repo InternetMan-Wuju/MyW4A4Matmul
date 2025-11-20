@@ -56,7 +56,7 @@ int32_t main(int32_t argc, char *argv[])
 
     GenerateTilingMatmul(socVersion, tilingBufMatmul);
 
-    GenerateTilingScamul(socVersion, tilingBufMatmul);
+    GenerateTilingScamul(socVersion, tilingBufScamul);
 
 #ifdef CUSTOM_ASCEND310P//NOTUSE
     uint32_t blockDim = 2;

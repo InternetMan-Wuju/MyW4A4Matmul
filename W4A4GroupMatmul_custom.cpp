@@ -191,7 +191,7 @@ __aicore__ inline void W4A4GroupMatmul::Init(GM_ADDR x, GM_ADDR w, GM_ADDR x_sca
     // AscendC::TBuf<AscendC::TPosition::VECCALC> MatMul_FLOAT_CALC_Buf_;
     // AscendC::TBuf<AscendC::TPosition::VECCALC> y_CALC_Buf_;
     pipe->InitBuffer(MatMul_FLOAT_CALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(float));
-    pipe->InitBuffer(y_CALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(int8_t));
+    pipe->InitBuffer(y_CALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(float));
     //// AscendC::TBuf<AscendC::TPosition::VECCALC> GroupListsCALC_Buf_;
     // AscendC::TBuf<AscendC::TPosition::VECCALC> xScaleCALC_Buf_;       
     // AscendC::TBuf<AscendC::TPosition::VECCALC> wScaleCALC_Buf_;       
@@ -199,7 +199,7 @@ __aicore__ inline void W4A4GroupMatmul::Init(GM_ADDR x, GM_ADDR w, GM_ADDR x_sca
     //pipe->InitBuffer(GroupListsCALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(float));
     pipe->InitBuffer(xScaleCALC_Buf_,tilingMatmul_M*sizeof(float));    
     pipe->InitBuffer(wScaleCALC_Buf_,tilingMatmul_E*tilingMatmul_N*sizeof(float));
-    pipe->InitBuffer(ScaMulCALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(int8_t));
+    pipe->InitBuffer(ScaMulCALC_Buf_,tilingMatmul_M*tilingMatmul_N*sizeof(float));
     // //====================VECOUT
     // AscendC::TQue<AscendC::TPosition::VECOUT, 1> xOutQueue_;     
     // AscendC::TQue<AscendC::TPosition::VECOUT, 1> wOutQueue_;       
@@ -279,9 +279,6 @@ __aicore__ inline void W4A4GroupMatmul::Process(GM_ADDR workspace)
     AscendC::LocalTensor<float> MatMul_FLOAT_CALC=MatMul_FLOAT_CALC_Buf_.AllocTensor<float>();
     //FOR RESULT
     AscendC::LocalTensor<float> y_CALC=y_CALC_Buf_.AllocTensor<float>();
-    //AscendC::LocalTensor<int8_t> wIn = PartialMatMulQueue_.AllocTensor<sizeof(xType)* sizeof(wType)>();//PartialMatmulQueuType?
-    //AscendC::LocalTensor<wType> ScaQueueIn = ScaMulQueue_.AllocTensor<sizeof(xType)* sizeof(wType)>(); //ScaQueueType?
-    //AscendC::LocalTensor<GroupListsType> GroupListsIn = GroupListsInQueue_.AllocTensor<GroupListsType>();
 
     //======================================IMPORTANT========================
     //https://www.hiascend.com/document/detail/zh/canncommercial/82RC1/API/ascendcopapi/atlasascendc_api_07_0102.html
@@ -321,45 +318,6 @@ __aicore__ inline void W4A4GroupMatmul::Process(GM_ADDR workspace)
     int32_t current_E =0;
     int32_t sum_line = 0;
 
-    // //Test print all --Test result ：ALL CORRECT
-    // printf("Testblock Print x[]:\n");
-    // for(int i=0;i<64;i++){
-    //   for(int j=0;j<32;j++){
-    //   printf("%d ", x_out(i*32+j));
-    //   }
-    //   printf("\n");
-    // }
-
-    //Test Block ===========================
-    // for(int i = 0; i < tilingMatmul_E; i++)
-    // {
-    //   //Step1 :计算Offset==========DEPRECATED&&ATTENTION:现在不用，后面分片+int4再用================
-    //   //========================
-    //   //从X中选取GroupList[E]行，矩阵乘，[第E个]W矩阵
-    //   current_E = groupListLocal(i);
-    //   //mmMatmul.SetOrgShape(current_E,tilingMatmul_N,tilingMatmul_K);
-    //   //mmMatmul.SetOrgShape(current_E,tilingMatmul_N,tilingMatmul_K);
-    //   //mmMatmul.SetTensorA(x_out[sum_line*tilingMatmul_K]);
-    //   printf("Printing x_out for current E=%d:\n",current_E);
-    //   for(int j=0;j<current_E;j++){
-    //     for(int k=0;k<tilingMatmul_K;k++){
-    //       //printf("%d ", x_out((j+sum_line)*tilingMatmul_K + k));
-    //     }
-    //     //printf("\n");
-    //   }
-    //   printf("Printing end\n");
-
-    //   //mmMatmul.SetTensorB(w_out[i*tilingMatmul_K*tilingMatmul_N]);
-    //   printf("Printing w_out for current E=%d:\n",current_E);
-    //   for(int k=0;k<tilingMatmul_K;k++){
-    //     for(int j=0;j<tilingMatmul_N;j++){
-    //       //printf("%d ", w_out(i*tilingMatmul_K*tilingMatmul_N + k*tilingMatmul_N + j));
-    //     }
-    //     //printf("\n");
-    //   }
-    //   printf("Printing end\n");
-    // }
-    //Test Block ===========================
     current_E =0;
     sum_line = 0;
     printf("Testblock MatMul Cal Start=====================\n");
@@ -369,19 +327,17 @@ __aicore__ inline void W4A4GroupMatmul::Process(GM_ADDR workspace)
       //========================
       //从X中选取GroupList[E]行，矩阵乘，[第E个]W矩阵
       current_E = groupListLocal(i);
-      printf("Current E:%d \n",current_E);  
+      //printf("Current E:%d \n",current_E);  
       //mmMatmul.SetOrgShape(current_E,tilingMatmul_N,tilingMatmul_K);
       mmMatmul.SetOrgShape(current_E,tilingMatmul_N,tilingMatmul_K);
       mmMatmul.SetTensorA(x_out[sum_line*tilingMatmul_K]);
       mmMatmul.SetTensorB(w_out[i*tilingMatmul_K*tilingMatmul_N]);
       
-      printf("Testblock MatMul 3=====================\n");
 
       //mmMatmul.IterateAll(MatMulIn[sum_line*tilingMatmul_N]);
       while(mmMatmul.Iterate()){ 
         mmMatmul.GetTensorC(MatMulIn[sum_line*tilingMatmul_N]);
          };
-      printf("Testblock MatMul 4=====================\n");
       sum_line +=current_E;
 
     }
@@ -410,7 +366,7 @@ __aicore__ inline void W4A4GroupMatmul::Process(GM_ADDR workspace)
     for(int i=0;i<tilingScamul_E;i++){
       current_E = groupListLocal(i);  
       mmScamul.SetTensorB(w_scale_out[i*tilingScamul_N]);
-      // while(mmScamul.Iterate()){mmScamul.GetTensorC(ScaMulIn);};
+      while(mmScamul.Iterate()){mmScamul.GetTensorC(ScaMulIn);};
       AscendC::DataCopy(ScaMul_CALC[sum_line*tilingScamul_N],ScaMulIn[sum_line*tilingScamul_N],current_E*tilingScamul_N);
       sum_line+=current_E;
 

@@ -94,7 +94,7 @@ void GenerateTilingMatmul(const char *socVersion, uint8_t *tilingBuf)
     if (step1MulRes == -1) {
         std::cout << "gen tiling failed, this code is from tiling.cpp" << std::endl;
     }
-    uint32_t tcubeTilingSize = tilingData.GetDataSize();
+    uint32_t tcubeTilingSize = tilingData.GetDataSize() + sizeof(uint64_t);
     tilingData.SaveToBuffer(tilingBuf, tcubeTilingSize);
     //uint64_t localMemSize;
     //ascendcPlatform->GetCoreMemSize(platform_ascendc::CoreMemType::UB, localMemSize);
@@ -107,7 +107,7 @@ void GenerateTilingScamul(const char *socVersion, uint8_t *tilingBuf)
   //未来需要支持动态Shape
   //这里先直接全怼进去
   //Scamul:那个x_scale和w_scale相乘的操作，相当于vector mul,不过我们还是直接用matmul，后面再调,25.11.4
-    constexpr int32_t M = 32;
+    constexpr int32_t M = 64;
     constexpr int32_t K = 1;
     constexpr int32_t N = 32;
     
