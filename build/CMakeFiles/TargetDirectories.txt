@@ -1,8 +1,0 @@
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/ascendc_kernels_cpu.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/ascendc_kernels_bbit.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/edit_cache.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/rebuild_cache.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/list_install_components.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/install.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/install/local.dir
-/CYT_fileSys_2/Code1/W4A4GroupMatmul/build/CMakeFiles/install/strip.dir
